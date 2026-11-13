@@ -1,0 +1,76 @@
+{
+  "resTitle": "Assessment Result",
+  "resMsg": "Note: This is a risk assessment based on the Framingham Hypertension Risk Score. High scores indicate a need for close blood pressure monitoring and lifestyle adjustments.",
+  "retry": "Restart Quiz",
+  "back": "Back",
+  "levels": ["Low Risk", "Moderate Risk", "High Risk"],
+  "hPlace": "Height (cm)",
+  "wPlace": "Weight (kg)",
+  "continue": "Continue",
+  "error": "Please enter valid values",
+  "questions": [
+    {
+      "q": "What is your sex?",
+      "key": "sex",
+      "a": [
+        { "t": "Male", "s": 0, "id": "male" },
+        { "t": "Female", "s": 1, "id": "female" }
+      ]
+    },
+    {
+      "q": "How old are you?",
+      "key": "age",
+      "a": [
+        { "t": "Under 35", "s": 0 },
+        { "t": "35 - 44", "s": 2 },
+        { "t": "45 - 54", "s": 4 },
+        { "t": "55 - 64", "s": 6 },
+        { "t": "65 or older", "s": 8 }
+      ]
+    },
+    {
+      "q": "What is your typical Systolic Blood Pressure (top number)?",
+      "key": "pressure",
+      "a": [
+        { "t": "Under 115", "s": 0 },
+        { "t": "115 - 119", "s": 2 },
+        { "t": "120 - 124", "s": 4 },
+        { "t": "125 - 129", "s": 6 },
+        { "t": "130 - 134", "s": 8 },
+        { "t": "135 - 139", "s": 10 }
+      ]
+    },
+    {
+      "q": "What is your typical Diastolic Blood Pressure (bottom number)?",
+      "key": "pressure",
+      "a": [
+        { "t": "Under 70", "s": 0 },
+        { "t": "70 - 74", "s": 1 },
+        { "t": "75 - 79", "s": 2 },
+        { "t": "80 - 84", "s": 3 },
+        { "t": "85 - 89", "s": 4 }
+      ]
+    },
+    {
+      "q": "Do you have a parental history of hypertension?",
+      "key": "family",
+      "a": [
+        { "t": "Yes", "s": 2 },
+        { "t": "No", "s": 0 }
+      ]
+    },
+    {
+      "q": "Are you a current smoker?",
+      "key": "smoke",
+      "a": [
+        { "t": "Yes", "s": 1 },
+        { "t": "No", "s": 0 }
+      ]
+    },
+    {
+      "q": "Enter height and weight for BMI risk",
+      "key": "weight",
+      "isBMI": true
+    }
+  ]
+}

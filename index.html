@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hypertension Risk Assessment</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container" id="main-container" aria-live="polite">
+      <div class="progress-container" id="p-container">
+        <div
+          class="progress-bar"
+          id="progress"
+          role="progressbar"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          aria-valuenow="0"
+          aria-label="Quiz progress"
+        ></div>
+      </div>
+
+      <div id="content-area" class="fade-in">
+        <div class="icon-wrapper" aria-hidden="true">
+          <svg viewBox="0 -960 960 960">
+            <path
+              d="m476-80 182-480h84L924-80h-84l-43-122H603L560-80h-84ZM160-200l-56-56 202-202q-35-35-63.5-80T190-640h84q20 39 40 68t48 58q33-33 68.5-92.5T484-720H40v-80h280v-80h80v80h280v80H564q-21 72-63 148t-83 116l96 98-30 82-122-125-202 201Zm468-72h144l-72-204-72 204Z"
+            />
+          </svg>
+        </div>
+        <div
+          class="button-group"
+          id="lang-buttons"
+          role="group"
+          aria-label="Language"
+        ></div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
